@@ -23,7 +23,7 @@ class SignIn extends React.Component {
         email: this.state.signinemail,
         password: this.state.signinpassword
       })
-    }) .then(response.json())
+    }) .then(response => response.json())
        .then(user => {
       if (user.id) {
           this.props.loadUser(user);
