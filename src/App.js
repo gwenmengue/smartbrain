@@ -26,7 +26,7 @@ const initialState = {
       imageUrl: '',
       box: {},
       route: 'signin',
-      isSignedIn: false
+      isSignedIn: false,
       user: {
         email: '',
         id: '',
