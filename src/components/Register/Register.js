@@ -27,7 +27,7 @@ class Register extends React.Component {
         email: this.state.email,
         password: this.state.password
       })
-    }) .then(res.json())
+    }) .then(response.json())
        .then(user => {
       if (user.id) {
         this.props.loadUser(user)
