@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman';
+  background: linear-gradient(90deg,#f54291 0%, #6807f9 100%)
+}
+
+button {
+cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
